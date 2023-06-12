@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="style/formulario.css">
+</head>
+<body>
+<main>
+    <h2>Inicia Sesion</h2>
+    <form action="" method="GET">
+        <label>Usuario</label>
+        <input id="txtUsuario" type="text" name="nombre" placeholder= "Pon un usuario" value="">
+        <span></span>
+        <br>
+        <label>Contrasenya</label>
+        <input id="txtPassword" type="password" name="password" placeholder= "Pon una contraseña" value="">
+        <span></span>
+        <br>
+        <button class="enviar" onclick="validarUsuario()">Enviar</button>
+        <span></span>
+    </form>
+
+    <a href="signup.html">¿No tienes cuenta?</a>
+
+</main>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
+<script src="js/appLogin.js"></script>
+</html>
